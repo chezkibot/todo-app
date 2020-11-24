@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 class TodoList extends React.Component {
   render() {
     return (
-      <div className="TodoList">
+      <div className="TodoList ">
         {this.props.todos.map((todo) => (
           <TodoItem
             key={todo.id}
